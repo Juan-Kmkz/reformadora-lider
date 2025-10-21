@@ -111,7 +111,7 @@ main {
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   background-color: #f8c0a6;
   height: 10vh;
 }
@@ -374,6 +374,8 @@ footer span {
 
   .mainBtnWpp {
     width: 70%;
+    height: auto;
+    font-size: small;
   }
 
   .div-cards {
