@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #2d375f;
+}
+
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 2rem;
+  height: 8vh;
+  width: 100vw;
+  background-color: #2d375f;
+  position: fixed;
+}
+
+a {
+  color: #f86f30;
+  text-decoration: none;
+  padding-block: 1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.brand-logo {
+  height: 100%;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+
+.mobile-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  background: #fff;
+  width: 32px;
+  height: 2px;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+main {
+  width: 100%;
+  padding-top: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding-block: 2.5%;
+  background-color: #f8c0a6;
+  text-align: center;
+}
+
+.heroImg {
+  width: 50%;
+}
+
+.hero h2 {
+  font-size: clamp(1rem, 4vh, 3.5rem);
+}
+
+.txt-paragraph {
+  width: 100%;
+  background-color: #2d375f;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txt-paragraph p {
+  color: #f86f30;
+  font-size: clamp(1rem, 2.5vh, 3rem);
+}
+
+.mainBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #f8c0a6;
+  height: 8vh;
+}
+
+.mainBtnWpp {
+  min-width: 30%;
+  max-width: 70%;
+  min-height: 3vh;
+  border-radius: 40px;
+  border: solid 1px #fff;
+  background-color: #25d366;
+  color: #fff;
+  font-size: clamp(0.7rem, 2vh, 1.5rem);
+  font-weight: 600;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.mainBtnWpp img {
+  width: 2.5rem;
+}
+
+.mainBtnWpp:hover {
+  transform: scale(1.05);
+}
+
+.rating {
+  width: 100%;
+  background-color: #2d375f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-block: 30px;
+}
+
+.stars {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rating img {
+  width: 7.5%;
+  margin: 15px;
+}
+
+.txt-rating {
+  max-width: 90%;
+}
+
+.rating p {
+  color: #fff;
+  font-size: clamp(1rem, 1.25vh, 3rem);
+  text-align: center;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: #2d375f;
+  padding: 50px 30px 30px 30px;
+  gap: 15px;
+  border-top: 1px solid #f8c0a6;
+}
+
+.about h2 {
+  color: #fff;
+  margin-bottom: 15px;
+  align-self: center;
+}
+
+.card-about {
+  max-width: 50%;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 35px;
+}
+
+.card-about span {
+  color: #f86f30;
+  font-weight: bold;
+}
+
+#card1 {
+  align-self: flex-start;
+}
+
+#card2 {
+  align-self: flex-end;
+}
+
+#card3 {
+  align-self: flex-start;
+}
+
+.div-section {
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color: #f8c0a6;
+}
+
+.title {
+  font-size: clamp(1rem, 4vh, 3.5rem);
+}
+
+.cards {
+  background-color: #fff;
+  max-width: 400px;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.div-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+}
+
+.feedback-imgs {
+  width: 200px;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+
+.address {
+  width: 100%;
+  padding: 30px;
+  background-color: #2d375f;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.address h2,
+.address h3,
+.address p {
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  background-color: #f8c0a6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 50px;
+  gap: 50px;
+}
+
+form {
+  background-color: #2d375f;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 50px 30px;
+  border-radius: 30px;
+  min-width: 20%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  height: 50px;
+  border-radius: 15px;
+  padding-left: 15px;
+}
+
+label {
+  color: #f86f30;
+  font-size: large;
+}
+
+form button {
+  width: 60%;
+  height: 50px;
+  align-self: center;
+  border: none;
+  border-radius: 25px;
+  font-size: large;
+  font-weight: bold;
+  background-color: #f86f30;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+form button:hover {
+  transform: scale(1.05);
+}
+
+#contact img {
+  width: 60px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#contact img:hover {
+  transform: scale(1.05);
+}
+
+
+
+.contact-icons {
+  display: flex;
+  gap: 50px;
+}
+
+footer p {
+  text-align: center;
+}
+
+footer span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 999px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 8vh;
+    right: 0;
+    width: 50vw;
+    height: 92vh;
+    background: #2d375f;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+  }
+
+  .nav-list li {
+    opacity: 0;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .div-cards {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .card-about {
+    max-width: 100%;
+  }
+}
+
+.nav-list.active {
+  transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
