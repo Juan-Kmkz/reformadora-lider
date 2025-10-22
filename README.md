@@ -19,7 +19,7 @@
 
 <h2>📄Sobre o projeto:</h2>
 <p>Este projeto é um exemplar de uma landing page, focada na boa apresentação para o usuário passando credibilidade com relaçãoao serviçoque estásendo ofertado.</p>
-<p>Pode-se observar que no corpo da LP são utiliazdos diversos elementos, com o intuito de converter o usuário final, a cliente.</p>
+<p>Pode-se observar que no corpo da LP são utilizados diversos elementos, com o intuito de converter o usuário final, a cliente.</p>
 
 <h2>🔨 Tecnologias utilizadas:</h2>
 
@@ -36,25 +36,32 @@
 </ul>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Juan-Kmkz/we-care/ed1d2a74a8bbc570a19acee0445f832f14652c33/assets/Macbook-Air-127.0.0.1.png" width="800px">
+  <img src="https://github.com/Juan-Kmkz/reformadora-lider/blob/master/assets/macbook-layout.png?raw=true" width="800px">
   <br>
   <em>Apresentação em desktops.</em>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Juan-Kmkz/we-care/ed1d2a74a8bbc570a19acee0445f832f14652c33/assets/iPad-PRO-11-127.0.0.1.png" width="400px">
+  <img src="https://github.com/Juan-Kmkz/reformadora-lider/blob/master/assets/ipad-layout.png?raw=true" width="400px">
   <br>
   <em>Apresentação em iPads/Tablets.</em>
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Juan-Kmkz/we-care/ed1d2a74a8bbc570a19acee0445f832f14652c33/assets/iPhone-14-Plus-127.0.0.1.png" width="400px">
+  <img src="https://github.com/Juan-Kmkz/reformadora-lider/blob/master/assets/iphone-layout.png?raw=true" width="400px">
   <br>
   <em>Apresentação em smartphones.</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Juan-Kmkz/reformadora-lider/blob/master/assets/iphone-layout-2.png?raw=true" width="400px">
+  <br>
+  <em>Apresentação em smartphones - menu aberto.</em>
 </p>
 
 <h2>📬 Contato:</h2>
 <ul>
   <li>LinkedIn: <a href="https://www.linkedin.com/in/juan-danilo/">Juan Danilo</a></li>
-  <li>E-mail: juandanilo777@gmail.com</li>
+  <li>E-mail 1: juan.d.corp@gmail.com</li>
+  <li>E-mail 2: juandanilo777@gmail.com</li>
 </ul>
